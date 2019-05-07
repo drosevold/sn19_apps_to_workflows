@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>false</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description>This flow is to include approvals and notifications for when a new conference request is created. </description>
+        <internal_name>new_conference_rquest</internal_name>
+        <label_cache>[{"name":"{{static.56b73b9fdbe623005e3290c7db9619f5}}","label":"Approval: Training","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference"},{"name":"87331c77-15af-4291-8ae7-6cc74a5ac927.approval_state","label":"2.1➛Approval State","type":"choice","base_type":"choice"},{"name":"Created_1.current.type","label":"Trigger➛Conference Request Record➛Type","reference":"","reference_display":"Type","type":"choice","base_type":"choice","parent_table_name":"x_snc_conference_u_conference_request","column_name":"type"},{"name":"4c25c6f8-a698-4e4b-82d6-83b50b2c94e5.email","label":"1➛email","reference":"sys_email","reference_display":"Email","type":"reference","base_type":"reference"},{"name":"Created_1.current","label":"Trigger➛Conference Request Record","reference":"x_snc_conference_u_conference_request","reference_display":"Conference Request","type":"reference","base_type":"reference"},{"name":"Created_1.current.opened_by","label":"Trigger➛Conference Request Record➛Requester","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"x_snc_conference_u_conference_request","column_name":"opened_by"},{"name":"Created_1.current.opened_by.email","label":"Trigger➛Conference Request Record➛Requester➛Email","reference":"","reference_display":"Email","type":"email","base_type":"email","parent_table_name":"sys_user","column_name":"email"},{"name":"Created_1.current.number","label":"Trigger➛Conference Request Record➛Number","reference":"","reference_display":"Number","type":"string","base_type":"string","parent_table_name":"x_snc_conference_u_conference_request","column_name":"number"}]</label_cache>
+        <latest_snapshot/>
+        <master_snapshot/>
+        <name>New Conference Rquest </name>
+        <outputs/>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>draft</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-05-07 22:46:04</sys_created_on>
+        <sys_id>7086ad9df05533007f44e4cb524e14e5</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>New Conference Rquest </sys_name>
+        <sys_package display_value="Conference Registration" source="x_snc_conference_u">467dd24cdbe0b3001fdb7ab9bf9619f7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Conference Registration">467dd24cdbe0b3001fdb7ab9bf9619f7</sys_scope>
+        <sys_update_name>sys_hub_flow_7086ad9df05533007f44e4cb524e14e5</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-05-07 23:37:09</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=7086ad9df05533007f44e4cb524e14e5"/>
+    <sys_variable_value action="delete_multiple" query="document_key=7086ad9df05533007f44e4cb524e14e5"/>
+</record_update>

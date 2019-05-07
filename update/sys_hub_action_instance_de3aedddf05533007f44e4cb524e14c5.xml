@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_action_instance">
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Send Email">98c181d20b100300d97d8bf637673ab5</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="New Conference Rquest ">7086ad9df05533007f44e4cb524e14e5</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-05-07 23:02:17</sys_created_on>
+        <sys_id>de3aedddf05533007f44e4cb524e14c5</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Conference Registration" source="x_snc_conference_u">467dd24cdbe0b3001fdb7ab9bf9619f7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Conference Registration">467dd24cdbe0b3001fdb7ab9bf9619f7</sys_scope>
+        <sys_update_name>sys_hub_action_instance_de3aedddf05533007f44e4cb524e14c5</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-05-07 23:37:09</sys_updated_on>
+        <ui_id>4c25c6f8-a698-4e4b-82d6-83b50b2c94e5</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=de3aedddf05533007f44e4cb524e14c5"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>de3aedddf05533007f44e4cb524e14c5</document_key>
+        <order>4</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-05-07 23:02:17</sys_created_on>
+        <sys_id>d63aedddf05533007f44e4cb524e14d9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-05-07 23:02:17</sys_updated_on>
+        <value/>
+        <variable display_value="">c71241160b100300d97d8bf637673a55</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=de3aedddf05533007f44e4cb524e14c5"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_body</field>
+        <id>de3aedddf05533007f44e4cb524e14c5</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-05-07 23:02:17</sys_created_on>
+        <sys_id>563aedddf05533007f44e4cb524e14d9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-05-07 23:02:17</sys_updated_on>
+        <table>var__m_sys_hub_action_input_98c181d20b100300d97d8bf637673ab5</table>
+        <value>&lt;p data-tinymcerootblock=""&gt;Dear, &lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillid="efc8ff76-12df-40d8-9ae1-70b84f7c98c6" data-pillvalue="{{Created_1.current.opened_by.first_name}}"&gt;&lt;span class="data_pill " contenteditable="false" data-pillid="efc8ff76-12df-40d8-9ae1-70b84f7c98c6" data-pillvalue="{{Created_1.current.opened_by.first_name}}"&gt;Trigger➛Conference Request Record➛Requester➛First name&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;We received your training request.&amp;nbsp; &amp;nbsp;Don't complain about when it will get approved.&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;Best,&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;DR&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;&amp;nbsp;&lt;/p&gt;</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_subject</field>
+        <id>de3aedddf05533007f44e4cb524e14c5</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-05-07 23:02:17</sys_created_on>
+        <sys_id>923aedddf05533007f44e4cb524e14d9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-05-07 23:02:17</sys_updated_on>
+        <table>var__m_sys_hub_action_input_98c181d20b100300d97d8bf637673ab5</table>
+        <value>{{Created_1.current.number}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_to</field>
+        <id>de3aedddf05533007f44e4cb524e14c5</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-05-07 23:02:17</sys_created_on>
+        <sys_id>5a3aedddf05533007f44e4cb524e14d8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-05-07 23:02:17</sys_updated_on>
+        <table>var__m_sys_hub_action_input_98c181d20b100300d97d8bf637673ab5</table>
+        <value>{{Created_1.current.opened_by.email}}</value>
+    </sys_element_mapping>
+</record_update>
