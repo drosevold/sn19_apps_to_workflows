@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>b5ca2e72db28b300f232d90d689619a1</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_decision_question">
+    <sys_decision_question action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <answer decision_table.answer_table="sys_user_group" name="Approval: Trade Show">ad87b79fdbe623005e3290c7db961906</answer>
+        <condition table="var__m_sys_decision_input_84d7eafedbe4b300f232d90d6896198b">u_conference_request.type=trade show^EQ<item endquery="false" field="u_conference_request.type" goto="false" newquery="false" operator="=" or="false" value="trade show"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <decision_table display_value="Conference App Approval">84d7eafedbe4b300f232d90d6896198b</decision_table>
+        <default_answer>false</default_answer>
+        <input_table>var__m_sys_decision_input_84d7eafedbe4b300f232d90d6896198b</input_table>
+        <label>Trade show Approval</label>
+        <order>0</order>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-04-05 12:48:08</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>b5ca2e72db28b300f232d90d689619a1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_overrides/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-04-05 12:48:08</sys_updated_on>
+    </sys_decision_question>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-04-05 12:48:08</sys_created_on>
+        <sys_id>3dca2e72db28b300f232d90d689619a1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Trade show Approval</sys_name>
+        <sys_package display_value="Conference Registration" source="x_snc_conference_u">467dd24cdbe0b3001fdb7ab9bf9619f7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Conference Registration">467dd24cdbe0b3001fdb7ab9bf9619f7</sys_scope>
+        <sys_update_name>sys_metadata_link_3dca2e72db28b300f232d90d689619a1</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-04-05 12:48:08</sys_updated_on>
+        <tablename>sys_decision_question</tablename>
+    </sys_metadata_link>
+</record_update>
